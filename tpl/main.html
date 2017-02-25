@@ -1,0 +1,14 @@
+<div id="main" data-role="page" ng-controller="mainCtrl">
+  <div data-role="header" data-position="fixed">
+    <h1>主菜单</h1>
+  </div>
+  <div class="ui-content">
+    <h3>成绩列表</h3>
+    <ul>
+      <li ng-repeat="s in scoreList">{{s}}</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h2></h2>
+  </div>
+</div>
